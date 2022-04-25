@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-button [routerLink]="['/home']">
+            <mat-icon aria-hidden="false" aria-label="Home">home</mat-icon>
+        </button>
+        <button mat-button [matMenuTriggerFor]="clientes">Alumnos</button>
+        <mat-menu #clientes="matMenu">
+            <button mat-menu-item [routerLink]="['/clilista']"  *ngIf="esAdminitrativo"  >Registar</button>
+            <button mat-menu-item [routerLink]="['/clinotas']"  *ngIf="esAlumno"  >Ver Notas</button>
+        </mat-menu>
+        <span class="toolbar-spacer"></span>
+        <button mat-button (click)="LogOut()">
+            <mat-icon aria-hidden="false" aria-label="Salir">logout</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>

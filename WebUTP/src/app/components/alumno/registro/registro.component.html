@@ -1,0 +1,69 @@
+<h1 mat-dialog-title>{{data.titulo}}</h1>
+<div mat-dialog-content>
+   
+   
+            
+            
+                <form [formGroup]="formAgregarAlumno">
+                    <!-- Datos del cliente -->
+                    <mat-grid-list cols="1" rowHeight="100px" gutterSize="2px">
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Numero documento" type="text" formControlName="numeroDocumento" [errorStateMatcher]="matcher" />
+                                <mat-error *ngIf="hasError('numeroDocumento', 'required')">
+                                    Ingrese el numero documento
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Apellido Paterno" type="text" formControlName="apellidoPaterno" [errorStateMatcher]="matcher">
+                                <mat-error *ngIf="hasError('apellidoPaterno', 'required')">
+                                    Ingrese el Apellido Paterno
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Apellido Materno" type="text" formControlName="apellidoMaterno" [errorStateMatcher]="matcher">
+                                <mat-error *ngIf="hasError('apellidoMaterno', 'required')">
+                                    Ingrese el Apellido Materno
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Nombres" type="text" formControlName="nombres" [errorStateMatcher]="matcher">
+                                <mat-error *ngIf="hasError('nombres', 'required')">
+                                    Ingrese el Nombres
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+
+                        <mat-grid-tile>
+                            <mat-form-field >
+                                <mat-label>Escuela</mat-label>
+                                <mat-select placeholder="Escuela"  formControlName="idEscuela" [errorStateMatcher]="matcher">
+                                    <mat-option value="-1">--SELECCIONE UNA OPCIÓN--</mat-option>
+                                    <mat-option *ngFor="let s of Escuelas" [value]="s.idEscuela">
+                                        {{s.descripcion}}
+                                    </mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="hasError('idEscuela', 'required')">
+                                    Ingrese el escuela
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+
+                        
+                    </mat-grid-list>
+                </form>   
+          
+    
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="onGuardar()"  color="primary" >Guardar</button>
+    <button mat-raised-button (click)="cancelar()">Cancelar</button>
+</div>

@@ -1,0 +1,15 @@
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-service-intf.deps.json
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-service-intf.dll
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-service-intf.pdb
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-common.dll
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-model.dll
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-common.pdb
+D:\EVA\UTP\academico-service-intf\bin\Debug\netcoreapp3.1\academico-model.pdb
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.csproj.AssemblyReference.cache
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.GeneratedMSBuildEditorConfig.editorconfig
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.AssemblyInfoInputs.cache
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.AssemblyInfo.cs
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.csproj.CoreCompileInputs.cache
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.csproj.CopyComplete
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.dll
+D:\EVA\UTP\academico-service-intf\obj\Debug\netcoreapp3.1\academico-service-intf.pdb

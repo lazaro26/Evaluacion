@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>academico_service_intf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\academico-common\academico-common.csproj" />
+    <ProjectReference Include="..\academico-model\academico-model.csproj" />
+  </ItemGroup>
+
+</Project>

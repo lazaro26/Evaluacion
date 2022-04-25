@@ -1,0 +1,16 @@
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-data-intf.deps.json
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-data-intf.runtimeconfig.json
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-data-intf.runtimeconfig.dev.json
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-data-intf.dll
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-data-intf.pdb
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-model.dll
+D:\EVA\UTP\academico-data-intf\bin\Debug\netcoreapp3.1\academico-model.pdb
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.csproj.AssemblyReference.cache
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.GeneratedMSBuildEditorConfig.editorconfig
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.AssemblyInfoInputs.cache
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.AssemblyInfo.cs
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.csproj.CoreCompileInputs.cache
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.csproj.CopyComplete
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.dll
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.pdb
+D:\EVA\UTP\academico-data-intf\obj\Debug\netcoreapp3.1\academico-data-intf.genruntimeconfig.cache

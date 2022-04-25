@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>acadecimico_backend</RootNamespace>
+    <UserSecretsId>086a7ab8-75cc-4a86-a6d9-e7927fec233e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\academico-common\academico-common.csproj" />
+    <ProjectReference Include="..\academico-data-imp\academico-data-imp.csproj" />
+    <ProjectReference Include="..\academico-data-intf\academico-data-intf.csproj" />
+    <ProjectReference Include="..\academico-model\academico-model.csproj" />
+    <ProjectReference Include="..\academico-service-imp\academico-service-imp.csproj" />
+    <ProjectReference Include="..\academico-service-intf\academico-service-intf.csproj" />
+  </ItemGroup>
+
+
+</Project>

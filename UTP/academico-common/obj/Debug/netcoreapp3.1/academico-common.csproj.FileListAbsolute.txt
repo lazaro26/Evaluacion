@@ -1,0 +1,10 @@
+D:\EVA\UTP\academico-common\bin\Debug\netcoreapp3.1\academico-common.deps.json
+D:\EVA\UTP\academico-common\bin\Debug\netcoreapp3.1\academico-common.dll
+D:\EVA\UTP\academico-common\bin\Debug\netcoreapp3.1\academico-common.pdb
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.csproj.AssemblyReference.cache
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.GeneratedMSBuildEditorConfig.editorconfig
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.AssemblyInfoInputs.cache
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.AssemblyInfo.cs
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.csproj.CoreCompileInputs.cache
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.dll
+D:\EVA\UTP\academico-common\obj\Debug\netcoreapp3.1\academico-common.pdb

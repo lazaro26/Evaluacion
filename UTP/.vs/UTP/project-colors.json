@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9462a1fb-4b97-48b0-982e-53c9291eeecc": {
+      "ProjectGuid": "9462a1fb-4b97-48b0-982e-53c9291eeecc",
+      "DisplayName": "acadecimico-backend",
+      "ColorIndex": 0
+    },
+    "ed0e3eb1-c769-4d90-8b0d-3b736aefff62": {
+      "ProjectGuid": "ed0e3eb1-c769-4d90-8b0d-3b736aefff62",
+      "DisplayName": "academico-service-imp",
+      "ColorIndex": 1
+    },
+    "7bbc53df-995d-49dc-8dfd-dda5bc15c4b6": {
+      "ProjectGuid": "7bbc53df-995d-49dc-8dfd-dda5bc15c4b6",
+      "DisplayName": "academico-service-intf",
+      "ColorIndex": 2
+    },
+    "7c01935a-6a85-4cb4-99f7-28542da30e3d": {
+      "ProjectGuid": "7c01935a-6a85-4cb4-99f7-28542da30e3d",
+      "DisplayName": "academico-data-imp",
+      "ColorIndex": 3
+    },
+    "e461b608-569f-434e-9982-2c057790dd72": {
+      "ProjectGuid": "e461b608-569f-434e-9982-2c057790dd72",
+      "DisplayName": "academico-data-intf",
+      "ColorIndex": 4
+    },
+    "b0914bde-0a35-4167-83b3-4cf244c89135": {
+      "ProjectGuid": "b0914bde-0a35-4167-83b3-4cf244c89135",
+      "DisplayName": "academico-model",
+      "ColorIndex": 5
+    },
+    "eb5fc52d-97c7-4ebd-9f0d-bc5e0c588205": {
+      "ProjectGuid": "eb5fc52d-97c7-4ebd-9f0d-bc5e0c588205",
+      "DisplayName": "academico-common",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "80d22f2c-a60d-41f0-8ee0-9687dc376720": {
+      "ProjectGuid": "80d22f2c-a60d-41f0-8ee0-9687dc376720",
+      "DisplayName": "tecnologia-util-lib",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

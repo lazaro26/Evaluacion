@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>{{data.titulo}}</h1>
+<div mat-dialog-content>
+   
+                <form [formGroup]="formAgregarUsuario">
+                    <!-- Datos del cliente -->
+                    <mat-grid-list cols="1" rowHeight="100px" gutterSize="2px">
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Usuario" type="text" formControlName="Usuario" [errorStateMatcher]="matcher" />
+                                <mat-error *ngIf="hasError('Usuario', 'required')">
+                                    Ingrese el Usuario
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="Password" type="text" formControlName="Password" [errorStateMatcher]="matcher">
+                                <mat-error *ngIf="hasError('Password', 'required')">
+                                    Ingrese el Password
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>
+                        
+                    </mat-grid-list>
+                </form>   
+          
+    
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="onGuardar()"  color="primary" >Guardar</button>
+    <button mat-raised-button (click)="cancelar()">Cancelar</button>
+</div>

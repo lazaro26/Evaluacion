@@ -1,0 +1,116 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Alumno</mat-card-title>
+        <mat-card-subtitle>de Registros </mat-card-subtitle>
+        <mat-icon style="font-size: 50px;" aria-hidden="false" aria-label="Salir">people_alt</mat-icon>
+    </mat-card-header>
+    <mat-card-content>
+
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title">Criterios de búsqueda</h3>
+            </div>
+            <div class="panel-body">
+                <form [formGroup]="formBuscar">
+                    <mat-grid-list cols="1" rowHeight="100px" gutterSize="2px">
+                        <mat-grid-tile>
+                            <mat-form-field>
+                                <input matInput placeholder="nombres" type="text" formControlName="nombres" [errorStateMatcher]="matcher" />
+                                <mat-error *ngIf="hasError('nombres', 'required')">
+                                    Ingrese el Nombre
+                                </mat-error>
+                            </mat-form-field>
+                        </mat-grid-tile>                  
+                    </mat-grid-list>
+                </form>                   
+            </div>
+
+            <div class="panel-footer">
+                <div fxLayout="row" fxLayoutAlign="center center">
+                    <div mat-dialog-actions class="p-0" fxLayout="row">
+                        <button mat-raised-button ><span class="material-icons">clear</span>
+                            Limpiar</button>
+                    </div>
+                    <div mat-dialog-actions fxLayout="row">
+                        <button mat-raised-button color="primary" class="ml-4" (click)="Buscar()"
+                            ><span class="material-icons">search</span> Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      
+
+        <div fxLayout="row" fxLayoutAlign="start center">
+              
+
+            <mat-grid-list cols="2" rowHeight="100px" gutterSize="50px">
+               
+                <div class="button">
+                    <button mat-raised-button (click)="AgregarAlumno()" color="primary" type="submit">Agregar</button>
+                </div>
+            </mat-grid-list>
+
+        </div>
+
+
+        <div class="mat-elevation-z8">
+            <table matSort mat-table [dataSource]="Alumnos" class="mat-elevation-z8" style="width: 100%;">
+
+                <ng-container matColumnDef="codigo">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Codigo </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.codigo}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="numeroDocumento">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Documento </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.numeroDocumento}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="apellidoPaterno">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Ape. Paterno </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.apellidoPaterno}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="apellidoMaterno">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Ape. Materno </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.apellidoMaterno}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="nombres">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Nombres </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.nombres}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="nombreEscuela">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> Escuela </th>
+                    <td mat-cell *matCellDef="let alu"> {{alu.nombreEscuela}} </td>
+                </ng-container>
+                
+                <ng-container matColumnDef="acciones">
+                    <th mat-sort-header mat-header-cell *matHeaderCellDef> acciones </th>
+                    <td mat-cell *matCellDef="let alu"> 
+                        <div fxLayout="row" >
+                           
+                                
+                                <button type="button" mat-stroked-button color="primary" class="sidebar-toggle btn-sm" aria-label="Editar" matTooltip="Agregar Usuario" (click)="AgregarUsuario(alu)" >
+                                    <mat-icon class="">construction </mat-icon>
+                                </button>                         
+
+                             
+                                <button type="button" mat-stroked-button color="primary" class="sidebar-toggle btn-sm" aria-label="Editar" matTooltip="Agregar Notas" (click)="AgregaNotas(alu)" >
+                                    <mat-icon class="">create</mat-icon>
+                                </button>
+                           
+                        </div>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+            <mat-paginator [pageSizeOptions]="[10, 20, 50]" showFirstLastButtons></mat-paginator>
+        </div>
+    </mat-card-content>
+</mat-card>
