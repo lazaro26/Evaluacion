@@ -26,7 +26,7 @@ namespace academico_service_imp
             try { 
 
             Alumno obj = new Alumno();
-            obj.nombres = nombre;
+                obj.nombres = (nombre == null) ? "" : nombre;
 
             var response = await _alumnoData.ConsultarAlumno(obj);
             if (response == null)

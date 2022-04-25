@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
-  urlAPI: '/api/'
+  production: false,
+  urlAPI: 'https://apputp.azurewebsites.net/'
 };

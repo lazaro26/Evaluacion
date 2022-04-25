@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "academico-service-intf/1.0.0": {
+        "dependencies": {
+          "academico-common": "1.0.0",
+          "academico-model": "1.0.0"
+        },
+        "runtime": {
+          "academico-service-intf.dll": {}
+        }
+      },
+      "academico-common/1.0.0": {
+        "runtime": {
+          "academico-common.dll": {}
+        }
+      },
+      "academico-model/1.0.0": {
+        "runtime": {
+          "academico-model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "academico-service-intf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "academico-common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "academico-model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vJt0UgWnzpeY0oUOSEszEcBwQSy10KOsZVYdtS2dBFgCeyb5pCS6Mnqye6paXFZO1DKaEuMcxSQrwUai7TZS/Q==",
+  "dgSpecHash": "oTz2jfvpT8dcGNNa7q+DS0omMCuXTRkWvLXt5dg1s5zizel+GYLJuVbuAnLquHRTAh96sXWIWGxhVHYuApKrYQ==",
   "success": true,
-  "projectFilePath": "D:\\EVA\\UTP\\academico-data-intf\\academico-data-intf.csproj",
+  "projectFilePath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-data-intf\\academico-data-intf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

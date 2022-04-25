@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b2k1HnUpOPzv4+kxxFtbArijmbBK8F9UwhcXnMIc4C3EB2QVMjR5PIjIOo0TIgeAhJepe1aaFxd0K8OcI0keVA==",
+  "dgSpecHash": "S91hKJmwpoDthIiV0TgMyfHzw1N43M7zzU8lGYG5eSFb7y36c4ttFZqcDV3AJwkyrgSwbaTMyDHWgKXpCmQDvA==",
   "success": true,
-  "projectFilePath": "D:\\EVA\\UTP\\acadecimico-backend\\acadecimico-backend.csproj",
+  "projectFilePath": "D:\\EVALUACION\\Evaluacion\\UTP\\acadecimico-backend\\acadecimico-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

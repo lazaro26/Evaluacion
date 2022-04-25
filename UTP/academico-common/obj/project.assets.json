@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EVA\\UTP\\academico-common\\academico-common.csproj",
+      "projectUniqueName": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-common\\academico-common.csproj",
       "projectName": "academico-common",
-      "projectPath": "D:\\EVA\\UTP\\academico-common\\academico-common.csproj",
+      "projectPath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-common\\academico-common.csproj",
       "packagesPath": "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\",
-      "outputPath": "D:\\EVA\\UTP\\academico-common\\obj\\",
+      "outputPath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

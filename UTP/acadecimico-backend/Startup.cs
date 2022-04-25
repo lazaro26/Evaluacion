@@ -93,7 +93,7 @@ namespace acadecimico_backend
                     builder => builder.WithOrigins(new[]
                     {
                         "http://localhost:4200",
-                        "http://localhost:50000"
+                        "https://webutp.azurewebsites.net"
                     })
                     .AllowAnyMethod()
                     .AllowAnyHeader()

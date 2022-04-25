@@ -1,0 +1,10 @@
+D:\EVALUACION\Evaluacion\UTP\academico-common\bin\Release\netcoreapp3.1\academico-common.deps.json
+D:\EVALUACION\Evaluacion\UTP\academico-common\bin\Release\netcoreapp3.1\academico-common.dll
+D:\EVALUACION\Evaluacion\UTP\academico-common\bin\Release\netcoreapp3.1\academico-common.pdb
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.csproj.AssemblyReference.cache
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.GeneratedMSBuildEditorConfig.editorconfig
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.AssemblyInfoInputs.cache
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.AssemblyInfo.cs
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.csproj.CoreCompileInputs.cache
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.dll
+D:\EVALUACION\Evaluacion\UTP\academico-common\obj\Release\netcoreapp3.1\academico-common.pdb

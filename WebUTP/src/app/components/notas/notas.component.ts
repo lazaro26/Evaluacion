@@ -66,7 +66,7 @@ export class NotasComponent implements OnInit {
     this.ObtenerDatos();
     setTimeout(() => {
       this.Calificaciones();
-    }, 800);
+    }, 1000);
   }
 
    ObtenerDatos(){

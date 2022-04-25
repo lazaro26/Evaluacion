@@ -5019,11 +5019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EVA\\UTP\\academico-data-intf\\academico-data-intf.csproj",
+      "projectUniqueName": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-data-intf\\academico-data-intf.csproj",
       "projectName": "academico-data-intf",
-      "projectPath": "D:\\EVA\\UTP\\academico-data-intf\\academico-data-intf.csproj",
+      "projectPath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-data-intf\\academico-data-intf.csproj",
       "packagesPath": "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\",
-      "outputPath": "D:\\EVA\\UTP\\academico-data-intf\\obj\\",
+      "outputPath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-data-intf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5045,8 +5045,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\EVA\\UTP\\academico-model\\academico-model.csproj": {
-              "projectPath": "D:\\EVA\\UTP\\academico-model\\academico-model.csproj"
+            "D:\\EVALUACION\\Evaluacion\\UTP\\academico-model\\academico-model.csproj": {
+              "projectPath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-model\\academico-model.csproj"
             }
           }
         }

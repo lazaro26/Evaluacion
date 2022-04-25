@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y1ECMT/1eAFSsPJ6Xvd03OQqrrWxieFVdKAHpNUkpcRC2B6KG6lp4fbR3+fX2KfY4qcKOCeh3h1bFKEtdczDtQ==",
+  "dgSpecHash": "PjLU7jIYrjBsBEJUJKf6ZfynZbjvf2TfwSxQRyFAn+RaIMYSExYGjp3ogiHu0jfsJsYymrNTRdH/4xXUQSnLdQ==",
   "success": true,
-  "projectFilePath": "D:\\EVA\\UTP\\academico-service-imp\\academico-service-imp.csproj",
+  "projectFilePath": "D:\\EVALUACION\\Evaluacion\\UTP\\academico-service-imp\\academico-service-imp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\elasticsearch.net\\7.8.1\\elasticsearch.net.7.8.1.nupkg.sha512",
     "C:\\Users\\Lazaro.DESKTOP-C63P495\\.nuget\\packages\\epplus\\5.7.0\\epplus.5.7.0.nupkg.sha512",
