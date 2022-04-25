@@ -75,7 +75,7 @@ export class NotaComponent implements OnInit {
    
     setTimeout(() => {
       this.Calificar();
-    }, 500);
+    }, 900);
   
   }
 
